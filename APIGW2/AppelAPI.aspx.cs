@@ -160,6 +160,8 @@ namespace APIGW2
             APIGW2V2RAID api = new APIGW2V2RAID();
             api.RaidInit();
             api.TestRaid();
+            Class1 bouh = new Class1();
+            bouh.TestPushGitBoulot.ToString();
         }
     }
 }

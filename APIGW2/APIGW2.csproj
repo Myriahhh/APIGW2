@@ -103,6 +103,7 @@
     <Compile Include="AppelAPI.aspx.designer.cs">
       <DependentUpon>AppelAPI.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
