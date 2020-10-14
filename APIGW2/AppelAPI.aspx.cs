@@ -52,6 +52,7 @@ namespace APIGW2
     {
         private readonly string BaseURI = "https://api.guildwars2.com/v2/";
         private readonly string URIRaid = "account/raids?access_token=";
+        string testPushGit;
 
         public List<string> RaidInit()
         {
@@ -76,7 +77,7 @@ namespace APIGW2
 
             
             RaidWing[] myDeserializedObjList = JsonConvert.DeserializeObject<RaidWing[]>(myJSON);
-            string bla = myDeserializedObjList[myDeserializedObjList.Count()-1].wings[0].events[0].id;
+            string bla = myDeserializedObjList[myDeserializedObjList.Count()-1].Wings[0].Events[0].Id;
             //Raids myDeserializedClass = JsonConvert.DeserializeObject<Raids>(myJSON);
             //myDeserializedClass[0].MyArray[0].wings[0].id.ToString();
         }
